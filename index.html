@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About Me</title>
+    <title>Peaky Blinders Hangman</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="resetsheet" href="assets/css/reset.css">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -19,78 +19,145 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="gameTitle">
-            HangMan!
-        </h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="gameTitle">
+                    HangMan!
+                </h1>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <h2 class="themeTitle">
-            Peaky Blinders Theme!
-        </h2>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="themeTitle">
+                    Peaky Blinders Theme
+                </h2>
+            </div>
+        </div>
     </div>
 
-    <div class="Hangee">
-        <img src="" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="container">
+                    <img id="HangeeImg" src="" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="gameStart">
-        <h3 id="startText">Press Enter to get Started!</h3>
+
+    <div class="container">
+        <div class="toBeHungCont">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="gameStart">
+                        <h3 id="startText"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="winsCont">
-        <h3>
-            Wins:
-            <span id="winDisp">X</span>
-        </h3>
+
+    <div class="container">
+        <div class="winDispCont">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h3>
+                        Wins:
+                        <span id="winDisp"></span>
+                    </h3>
+                </div>
+                <div class="col-lg-4">
+                    <h3>
+                        Losses:
+                        <span id="lossDisp"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+    <div class="container">
+        <div class="lossDispCont">
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
     </div>
 
-    <div class="lossesCont">
-        <h3>
-            Losses:
-            <span id="lossDisp">X</span>
-        </h3>
 
-    </div>
-
-    <div class="currentWrdCont">
+    <!-- <div class="currentWrdCont">
         <h3>
             Current Word:
-            <span id="currWord">X</span>
+            <span id="unknownWord"></span>
         </h3>
+    </div> -->
+
+    <div class="container">
+        <div class="numGuessesCont">
+            <div class="row">
+                <div class "col-lg-12">
+                    <h3>
+                        Number of Guesses Remaining:
+                        <span id="numAttempts"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="numGuessesCont">
-        <h3>
-            Number of Guesses Remaining:
-            <span id="numGuess">X</span>
-        </h3>
+    <div class="container">
+        <div class="lettersGuessedCont">
+            <div class="row">
+                <div class "col-lg-12">
+                    <h3>
+                        Letters Guessed so Far:
+                        <span id="lettGuessedDisp"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="lettersGuessedCont">
-        <h3>
-            Letters Guessed so Far:
-            <span id="lettGuessed">X</span>
-        </h3>
-    </div>
-
-    <div class="userGuessCont">
+    <!-- <div class="userInputCont">
         <h3>
             You just guessed:
-            <span id="userEntered">...Nothing</span>
+            <span id="userInput"></span>
         </h3>
+    </div> -->
 
-    </div>
-
-    <div class="correctLettersCont">
+    <!-- <div class="correctLettersCont">
         <h3>
             Correct Letters:
-            <span id="corrLetts">X</span>
+            <span id="corrLetts"></span>
         </h3>
+    </div> -->
+    <div class="container">
+        <div class="correctLettersCont">
+            <div class="row">
+                <div class "col-lg-12">
+                    <h3>
+                        Word to be Guessed:
+                        <span id="boardDisp"></span>
+                    </h3>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="assets/javascript/game.js"></script>    
+    <script src="assets/javascript/game.js"></script>
 
 </body>
 

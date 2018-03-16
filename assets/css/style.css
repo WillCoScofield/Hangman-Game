@@ -1,0 +1,45 @@
+.row{
+    border: black solid 1px;
+}
+
+body{
+    background: url("../images/backgroundHang.png") center fixed;
+}
+
+.container{
+    background: whitesmoke;
+}
+.gameTitle{
+
+}
+.themeTitle{
+    
+}
+.toBeHungCont{
+    
+}
+.gameStart{
+    
+}
+.winsCont{
+    
+}
+.lossesCont{
+    
+}
+
+.numGuessesCont{
+    
+}
+.lettersGuessedCont{
+    
+}
+.userInputCont{
+    
+}
+.gameTitle{
+    
+}
+.gameTitle{
+    
+}
