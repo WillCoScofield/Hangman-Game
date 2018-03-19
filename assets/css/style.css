@@ -1,9 +1,18 @@
+html{
+    
+}
+
 .row{
-    border: black solid 1px;
+    border-bottom: black solid 1.5px;
+}
+
+.column{
+    /* border: black solid 1px; */
 }
 
 body{
     background: url("../images/backgroundHang.png") center fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .container{
@@ -11,8 +20,7 @@ body{
 }
 
 .gameTitle{
-    font: clarendon condensed; 
-
+    
 
 }
 
@@ -26,11 +34,17 @@ body{
 #TBHImg{
     margin: 2%;
     width: 70%;
-    
+    display: inline-block;
+    margin-left: 12%;
 }
 .gameStart{
     text-align: center;
+    
 }
+#startText{
+    font-size: 35px;
+}
+
 .winsCont{
     
 }
@@ -39,8 +53,15 @@ body{
 }
 
 #unknownWord{
+    display: inline-block;
+    float: left;
+    margin-left: 1%;  
     
-    
+}
+
+.imgCont{
+    display: inline-block;
+    text-align: center;
 }
 
 .numGuessesCont{

@@ -65,7 +65,7 @@ document.onkeydown = function (event) {
 
 function reset() {
     gameState = 'reset';
-    startText.textContent = "Press Enter to start the game";
+    startText.textContent = "Press Enter to start the game!";
     numAttempts.textContent = "";
     lettGuessedDisp.textContent = "";
     boardDisp.innerHTML = "&#9830;&#9830;&#9830;&#9830;&#9830;&#9830;&#9830;&#9830;&#9830;&#9830;";
@@ -154,7 +154,7 @@ function init() {
         gameState = "gameOver";
 
         //change message to user text
-        startText.innerHTML = "You did not guess correctly!"+ unknownWord + " is to be hung! Press space to play again.";
+        startText.innerHTML = "You did not guess correctly! "+ unknownWord + " is to be hung! Press space to try again.";
 
         //update # of losses
         losses += 1;
@@ -187,7 +187,7 @@ function init() {
                 break;
 
             case ('POLLY'):
-                charImg.src = 'assets/images/inspectorCampbell.jpg';
+                charImg.src = 'assets/images/polly.jpg';
                 break;
         }
 
