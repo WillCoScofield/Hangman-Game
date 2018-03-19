@@ -9,22 +9,37 @@ body{
 .container{
     background: whitesmoke;
 }
+
 .gameTitle{
+    font: clarendon condensed; 
+
 
 }
+
 .themeTitle{
     
 }
+
 .toBeHungCont{
     
 }
-.gameStart{
+#TBHImg{
+    margin: 2%;
+    width: 70%;
     
+}
+.gameStart{
+    text-align: center;
 }
 .winsCont{
     
 }
 .lossesCont{
+    
+}
+
+#unknownWord{
+    
     
 }
 
@@ -37,9 +52,4 @@ body{
 .userInputCont{
     
 }
-.gameTitle{
-    
-}
-.gameTitle{
-    
-}
+
